@@ -2,7 +2,7 @@ import React from "react";
 import Input from "./Input";
 
 export default {
-    title: 'Input', // This is mandatory and it's unique in whole project
+    title: 'Form/Input', // This is mandatory and it's unique in whole project
     component: Input,
 }
 

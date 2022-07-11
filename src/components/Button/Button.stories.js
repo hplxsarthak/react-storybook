@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 export default {
-    title: 'Button', // This is mandatory and it's unique in whole project
+    title: 'Form/Button', // This is mandatory and it's unique in whole project
     component: Button,
 }
 
