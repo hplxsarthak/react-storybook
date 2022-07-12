@@ -6,11 +6,10 @@ export default {
     component: Input,
 }
 
-export const Small = () => <Input size='small' placeholder="Small Size" />
+const Template = args => <Input {...args} />
 
-export const Medium = () => <Input size='medium' placeholder="Medium Size" />
-
-export const Large = () => <Input size='large' placeholder="Large Size" />
-
-// Rename small story
-Small.storyName = 'Small Input'
+export const InputArgs = Template.bind({})
+InputArgs.args = {
+    size: 'medium',
+    placeholder: 'Medium Size',
+}
