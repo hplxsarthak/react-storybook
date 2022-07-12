@@ -1,12 +1,16 @@
 import React from "react";
 import Button from "./Button";
+import Center from "../Center/Center";
 
 export default {
     title: 'Form/Button', // This is mandatory and it's unique in whole project
     component: Button,
     args: {              //  Defining args in the default
         children: "Button"
-    }
+    },
+    decorators: [
+        story => <Center>{story()}</Center>
+    ]
 }
 
 // Every named exports define a story
